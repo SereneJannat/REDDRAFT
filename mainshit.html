@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>:RED The Band | Official</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial Black', sans-serif;
+      background-color: #000;
+      color: #fff;
+    }
+    header {
+      background: #000;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    header img.logo {
+      max-width: 200px;
+    }
+    header h1 {
+      font-size: 3rem;
+      color: #e50914;
+      margin: 20px 0 10px;
+      letter-spacing: 3px;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #ccc;
+    }
+    nav {
+      background: #111;
+      padding: 10px 0;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+    nav a:hover {
+      color: #e50914;
+    }
+    section {
+      padding: 50px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    section h2 {
+      font-size: 2.5rem;
+      color: #e50914;
+      margin-bottom: 30px;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    .members {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
+    .member {
+      background: #111;
+      padding: 20px;
+      border-radius: 12px;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+    .member:hover {
+      transform: scale(1.05);
+    }
+    .member img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 12px;
+    }
+    .member h3 {
+      margin: 15px 0 10px;
+      color: #fff;
+    }
+    .member p {
+      color: #ccc;
+      font-size: 0.95rem;
+    }
+    .music {
+      text-align: center;
+    }
+    .music iframe {
+      width: 100%;
+      height: 315px;
+      margin: 20px 0;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .contact {
+      text-align: center;
+    }
+    .contact p {
+      margin: 8px 0;
+    }
+    footer {
+      background: #111;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      font-size: 0.9rem;
+      color: #888;
+    }
+    .socials a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+    }
+    .socials a:hover {
+      color: #e50914;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.png" alt=":RED The Band Logo" class="logo">
+    <h1>:RED The Band</h1>
+    <p>Pop/Melodic Band from Dhaka, Bangladesh</p>
+  </header>
+
+  <nav>
+    <a href="#members">Members</a>
+    <a href="#music">Music</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Members Section -->
+  <section id="members">
+    <h2>Meet the Band</h2>
+    <div class="members">
+
+      <div class="member">
+        <img src="redwan.jpg" alt="Redwan Reza">
+        <h3>Redwan Reza</h3>
+        <p>Vocalist & Lyricist. The voice and pen behind RED, pouring raw emotions into every lyric and performance. His vocals bring authenticity and soul to the band’s identity.</p>
+      </div>
+
+      <div class="member">
+        <img src="efti.jpg" alt="Ahmed Efti">
+        <h3>Ahmed Efti</h3>
+        <p>Drummer. Dedicated to perfecting his craft every day, Efti drives the heartbeat of the band with precision, energy, and passion.</p>
+      </div>
+
+      <div class="member">
+        <img src="dipto.jpg" alt="Samin Yasir Dipto">
+        <h3>Samin Yasir Dipto</h3>
+        <p>Vocalist. Known for his powerful stage presence, Dipto delivers vocals filled with passion and emotion, connecting deeply with the audience alongside his co-vocalist.</p>
+      </div>
+
+      <div class="member">
+        <img src="aoyon.jpg" alt="Aoyon Roy">
+        <h3>Aoyon Roy</h3>
+        <p>Guitarist, Producer & Sound Engineer. With years of training and performance, Aoyon refines his sound to push the band’s music to new creative heights.</p>
+      </div>
+
+      <div class="member">
+        <img src="kowshik.jpg" alt="Muhib Rahman (Kowshik)">
+        <h3>Muhib Rahman (Kowshik)</h3>
+        <p>Bassist. Inspired by diverse genres, Kowshik brings depth and rhythm, constantly learning and evolving to enhance the band’s soundscape.</p>
+      </div>
+
+      <div class="member">
+        <img src="dibbo.jpg" alt="Shadman Anam (Sadman Dibbo)">
+        <h3>Shadman Anam (Sadman Dibbo)</h3>
+        <p>Guitarist. With 16 years of experience, Dibbo adds maturity and melody to the band’s sound, balancing performance with laid-back vibes.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Music Section -->
+  <section id="music">
+    <h2>Our Music</h2>
+    <div class="music">
+      <p>Check out our latest releases and upcoming tracks.</p>
+      <iframe src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+      <p><strong>Upcoming Release:</strong> New single dropping soon — stay tuned!</p>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="gallery1.jpg" alt="Band performance">
+      <img src="gallery2.jpg" alt="Recording session">
+      <img src="gallery3.jpg" alt="Live concert">
+      <img src="gallery4.jpg" alt="Behind the scenes">
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact">
+      <p>📞 +880 1730835624</p>
+      <p>📧 redofficial.bd@gmail.com</p>
+      <div class="socials">
+        <a href="https://instagram.com/redofficialbd" target="_blank">Instagram</a>
+        <a href="https://facebook.com/redofficialbd" target="_blank">Facebook</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 :RED The Band | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
